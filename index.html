@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Love Math</title>
 </head>
 <body>
     <div id = "game-frame">
-        
+        <h1 id="my-title">Love Mathematics</h1>
         <div class="question-buttons">
             <button id = "btn-plus">+</button>
             <button id = "btn-minus">-</button>
         </div>
         <p id="question-holder">
-            2+2
+           Calculate: 2+2
         </p>
-        <p id = "answer-holder">
-            4
-        </p>
+        <input type="number" id = "answer-holder" name="answer-holder" value="3">
         <button id = "btn-submit">Banana</button>
         <div class="score-headings">
-            <p>Correct</p>
-            <p>Wrong</p>
+            <h3>Correct</h3>
+            <h3>Wrong</h3>
         </div>
         <div class="score-values">
             <p id="correct-score">1</p>
             <p id="wrong-score">2</p>
         </div>
     </div>
-    
+    <script type = "text/javascript" src = "./assets/js/logic.js"></script>
 </body>
 </html>
